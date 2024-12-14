@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#1f2b3f"
+    android:gravity="center">
+
+    <TextView
+        android:background="@drawable/textview_border"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="QR Code "
+        android:textIsSelectable="true"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/resultTextView"
+        android:layout_width="310dp"
+        android:layout_height="310dp"
+        android:layout_marginBottom="50dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+
+        android:visibility="gone"
+        android:id="@+id/verifyButton"
+        android:textAllCaps="false"
+        android:text="Verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:text="Scan QR Code"
+        android:id="@+id/scanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

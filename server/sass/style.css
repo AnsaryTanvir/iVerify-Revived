@@ -1,0 +1,74 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*----START NAVBAR----*/
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar ul li {
+  list-style: none;
+}
+
+/*----END NAVBAR----*/
+.container .top-section {
+  text-align: center;
+}
+
+.add-user form .row {
+  display: flex;
+  flex-direction: column;
+}
+.add-user form .row .col {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.add-hook form .row {
+  display: flex;
+  flex-direction: column;
+}
+.add-hook form .row .col {
+  width: 100%;
+  margin: 5px 0;
+}
+
+/*----START HOME PAGE---*/
+.welcome {
+  text-align: center;
+  margin-top: 45vh;
+}
+
+/*----END HOME PAGE---*/
+@media (max-width: 769px) {
+  .add-user form .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .add-user form .row .col {
+    width: 100%;
+    margin: 5px 0;
+  }
+  td.username {
+    min-width: 120px;
+  }
+  td.status {
+    min-width: 180px;
+  }
+  td.hack {
+    min-width: 140px;
+  }
+  td.startdate {
+    min-width: 160px;
+  }
+  td.expiry, td.startdate {
+    min-width: 120px;
+  }
+}
+.user.hide {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
